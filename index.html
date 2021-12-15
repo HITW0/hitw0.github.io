@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+
+    .container {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        background: url(https://images.unsplash.com/photo-1639402479478-f5e7881c0ccc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        position: relative;
+        filter: contrast(50%);
+        font-family: 'Charm', cursive;
+        color: transparent;
+        font-size: 11rem;
+        background: url(https://images.unsplash.com/photo-1638538043008-41980056cbbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1041&q=80) repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        animation: test 20s linear infinite;
+        -webkit-animation: test 20s linear infinite;
+        text-shadow: 2px 5px 60px rgb(97, 28, 60);
+    }
+
+    @keyframes test {
+        from {
+            background-position: 0% 30%;
+            top: -800px;
+
+
+        }
+
+        to {
+            background-position: 100% 50%;
+            top: 800px;
+
+        }
+
+    }
+</style>
+
+<body>
+    <section class="container">
+        <h1>AHMAD AL SOOBEH</h1>
+    </section>
+
+</body>
+
+</html>
